@@ -78,7 +78,7 @@ const Home = () => {
     return (
         <div className="bg-black m py-4">
             <div className="container bg-black text-white m-auto">
-                <h1 className="text-center text-3xl">Welcome to my Website for serching <br /> and store your fav film to see at any time</h1>
+                <h1 className="text-center text-3xl">Welcome to Abram's Website for serching <br /> and store your fav film to see at any time</h1>
                 <form action="">
                     <input type="text" placeholder="Enter the film Name" className=" text-black mt-4 peer w-full h-full  text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0  disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-gray-900" onChange={(e) => {
                         setSearch(e.target.value)
