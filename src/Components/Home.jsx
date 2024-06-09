@@ -95,7 +95,7 @@ const Home = () => {
                             <h1>Realease Time: {data.Released}</h1>
                             <h1>Time: {data.Runtime}</h1>
                             <h1>Type: {data.Type}</h1>
-                            <h1 className=" text-nowrap lg:text-wrap xlg:w-[600px]">Story: {data.Plot}</h1>
+                            <h1 className="lg:text-wrap xlg:w-[600px]">Story: {data.Plot}</h1>
                             <div className="text-center">
                                 <button onClick={() => {
                                     store(data.Poster, data.Title, data.Released)
