@@ -115,6 +115,7 @@ const Home = () => {
                             </div>
                             <div className="lg:w-[50%] text-center">
                                 <h1 className="text-white">Title: {item}</h1>
+                                <a className="text-blue-900" href={`https://wecima.show/watch/مشاهدة-فيلم-${item.replace(/ /g, '-')}-${saved3[index].match(/\d{4}$/)[0]}-مترجم/`}>Watch on MyCima</a> <br />
                                 <a className="text-blue-900" href={`https://web5.topcinema.top/فيلم-${item.replace(/ /g, '-')}-${saved3[index].match(/\d{4}$/)[0]}-مترجم-اون-لاين/watch/`}>Watch on topCima</a> <br />
                                 <a className="text-blue-900" href={`https://r9.cimalek.buzz/movies/${item.replace(/ /g, '-')}/watch/`}>Watch on cimalek</a> <br />
                                 <a className="text-blue-900" href={`https://xxz.tuktukcinema.shop//${item.replace(/ /g, '-')}-${saved3[index].match(/\d{4}$/)[0]}/`}>Watch on tuktok(may not work)</a>  <br />                           
