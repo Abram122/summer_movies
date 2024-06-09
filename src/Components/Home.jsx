@@ -12,7 +12,7 @@ const Home = () => {
     const [saved3, setSaved3] = useState([])
     const [counter, setCounter] = useState(0)
     const getData = () => {
-        axios.get(`http://www.omdbapi.com/?t=${search}&&apiKey=7009afb4`).then((res) => {
+        axios.get(`https://www.omdbapi.com/?t=${search}&&apiKey=7009afb4`).then((res) => {
             setData(res.data)
             console.log(res.data)
             console.log(localStorage.getItem('title', ','))
