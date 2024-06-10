@@ -95,6 +95,7 @@ const Home = () => {
                             <h1>Realease Time: {data.Released}</h1>
                             <h1>Time: {data.Runtime}</h1>
                             <h1>Type: {data.Type}</h1>
+                            <h1>Category: {data.Genre}</h1>
                             <h1 className=" text-wrap lg:text-wrap xlg:w-[600px]">Story: {data.Plot}</h1>
                             <div className="text-center">
                                 <button onClick={() => {
