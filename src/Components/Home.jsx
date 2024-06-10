@@ -78,7 +78,7 @@ const Home = () => {
     return (
         <div className="bg-black m py-4">
             <div className="container bg-black text-white m-auto">
-                <h1 className="text-center text-3xl">Welcome to my Website for serching <br /> and store your fav film to see at any time</h1>
+                <h1 className="text-center text-3xl">Welcome to Abram Website for searching <br /> and store your fav film to see at any time</h1>
                 <form action="" className="w-[90%] m-auto">
                     <input type="text" placeholder="Enter the film Name" className=" text-black mt-4 peer w-full h-full  text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0  disabled:border-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-gray-900" onChange={(e) => {
                         setSearch(e.target.value)
@@ -103,7 +103,7 @@ const Home = () => {
                                 }} className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 border-b-4 border-yellow-700 hover:border-yellow-500 rounded duration-300  w-40 mt-4">{save}</button>
                             </div>
                         </div>
-                    </div> : <h1 className="ms-10">Search For A Movie</h1>
+                    </div> : <h1 className="ms-10 mt-4">Search For A Movie</h1>
                 }
             </div>
             <div className="w-[75%] m-auto mt-3">
