@@ -103,7 +103,7 @@ const Home = () => {
                                 }} className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 border-b-4 border-yellow-700 hover:border-yellow-500 rounded duration-300  w-40 mt-4">{save}</button>
                             </div>
                         </div>
-                    </div> : <h1>Search For A Movie</h1>
+                    </div> : <h1 className="ms-10">Search For A Movie</h1>
                 }
             </div>
             <div className="w-[75%] m-auto mt-3">
