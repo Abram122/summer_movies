@@ -138,4 +138,8 @@ import { Link } from "react-router-dom";
             </div>
         );
     }
+<<<<<<< HEAD
     export default Home;
+=======
+    export default Home;
+>>>>>>> b15fd60b8f1e91d7a9f79ee5981154acb041fa11
