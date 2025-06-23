@@ -87,27 +87,11 @@ const Home = () => {
     useEffect(() => {
         getData();
         getSaved();
-        // eslint-disable-next-line
     }, [search, counter]);
 
     return (
         <div className="bg-gradient-to-b from-gray-900 to-black min-h-[100vh] pb-4">
-            {/* Navbar */}
-            <div className="w-full bg-gray-900 shadow-md mb-8">
-                <nav className="w-[90%] mx-auto flex flex-col sm:flex-row items-center justify-between py-4 px-2">
-                    <div className="text-2xl font-bold text-yellow-400 mb-2 sm:mb-0">
-                        Summer Movies
-                    </div>
-                    <div className="flex gap-x-6">
-                        <Link to={'/'}>
-                            <span className="text-white hover:text-yellow-400 transition-colors duration-200 text-lg">Search Page</span>
-                        </Link>
-                        <Link to={'/movies'}>
-                            <span className="text-white hover:text-yellow-400 transition-colors duration-200 text-lg">All Movies Page</span>
-                        </Link>
-                    </div>
-                </nav>
-            </div>
+            <Navbar />
             <div className="container bg-transparent text-white m-auto">
                 <h1 className="text-center text-3xl font-bold mb-6">Welcome to Abram Website for searching <br /> and store your fav film to see at any time</h1>
                 <form className="w-[90%] m-auto">

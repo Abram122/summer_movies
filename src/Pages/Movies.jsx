@@ -1,7 +1,7 @@
 import { split } from 'postcss/lib/list';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Loader from '../components/loader';
+import Loader from '../components/Loader';
 import Swal from 'sweetalert2';
 import Navbar from '../components/Navbar';
 

@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import Loader from '../components/loader';
+import Loader from '../components/Loader';
 import Navbar from '../components/Navbar';
 import Swal from 'sweetalert2';
 
